@@ -119,7 +119,7 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #6c757d;
   text-decoration: none;
   background-color: transparent;
 }
@@ -7061,6 +7061,7 @@ header {
 @media (max-width: 767.98px) {
   header {
     bottom: 0;
+    z-index: 1;
   }
   header .navbar {
     border-top: 0.25px solid black;
@@ -7070,8 +7071,12 @@ header .navbar button.navbar-toggler {
   border-color: transparent;
 }
 
+.intro-para {
+  height: 80vh;
+}
+
 .main-section {
-  min-height: 100vh;
+  min-height: 91.5vh;
   padding-top: 57px;
 }
 @media (max-width: 767.98px) {
@@ -7109,7 +7114,7 @@ header .navbar button.navbar-toggler {
   color: #000;
   display: inline-block;
   position: relative;
-  top: -11px;
+  top: -15px;
   padding: 0 2px;
   background: #fff;
 }

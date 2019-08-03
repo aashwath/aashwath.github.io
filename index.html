@@ -9,12 +9,11 @@
 	<link rel="stylesheet" href="css/styles.css">
 
 
-	<title>Stuff = Thoughts</title>
+	<title>Aashwath's Blog</title>
 </head>
 
 <body>
 	<header>
-		<!-- <div class="nav-container"> -->
 		<nav class="navbar navbar-expand-md navbar-light bg-white">
 			<a class="navbar-brand" href="#">Aashwath</a>
 			<button class="navbar-toggler collapsed" type="button" role="button" data-toggle="collapse"
@@ -23,120 +22,29 @@
 			</button>
 			<div class="collapse navbar-collapse justify-content-md-end" id="navbarNav">
 				<ul class="navbar-nav">
-					<li class="nav-item active">
-						<a class="nav-link" href="#">stuff<span class="sr-only">(current)</span></a>
+					<li class="nav-item">
+						<a class="nav-link" href="stuff.html">stuff<span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">gallery</a>
+						<a class="nav-link" href="gallery.html">gallery</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">writ</a>
+						<a class="nav-link" href="writ.html">writ</a>
 					</li>
 				</ul>
 			</div>
 		</nav>
-		<!-- </div> -->
 	</header>
 	<div class="container main-section px-1">
-		<div class="section-info text-center my-2">
-			<p>This is where you'll find my thoughts and rants.</p>
-		</div>
-		<div class="article">
-			<article>
-				<section role="heading" class="heading">
-					<h1 class="display-1">It’s very easy to develop a website</h1>
-					<p class="text-muted date">4th August, 2019</p>
-				</section>
-				<section class="body">
-					<p>Trust me, I moved on from filling excel sheets for a living to developing websites for MNCs. It’s a
-						desirable skill and a handy one at that to make a living. But it’s also (maybe) cathartic? I love designing.
-						Be that posters, typography, characters, UI designs or websites. If you’re passionate about design, or just
-						want to create a website, then let me tell you that two months from reading this, you can become a web
-						developer. No matter your occupation, academic specialization or age (unless you’re old enough to read this
-						and use a computer).</p>
-					<p>So, how does one make a website? And learn to do so in a month? Let’s answer those two questions
-						separately, shall we? In a plain and simple way.</p>
-					<h2 class="display-2">So, Q1: How does one make a website?</h2>
-					<p>A web browser (Firefox, Chrome, Safari etc.) can understand three languages: HTML, CSS and Javascript. All
-						three have very-easy-to-learn syntax (the way you are supposed to write the code), that can be written in 3
-						separate files:</p>
-					<section class="code">
-						<pre><code>1. index.html
-2. styles.css
-3. action.js</code></pre>
-					</section>
-					<p>The .html file is linked to the .css and .js files. All three work together to render your website. Once
-						you have filled up all three files with the necessary lines of code, link them to one another in the .html
-						file and open the .html file, you will see your website.</p>
-					<p class="m-0"><strong>With me so far?</strong></p>
-					<p>Yes. But I have a question. Why are there three separate programming languages?</p>
-					<p class="m-0"><strong>Nice one. Let’s delve a bit deeper into each shall we?</strong></p>
-					<p>Okay.</p>
-					<p><strong>HTML</strong> is short for (takes a deep breath) Hyper Text Markup Language (phew!). As the name
-						suggests, it’s used for representing text on the web. Text, images, videos. It will give structure to your
-						websites. People learn better with examples, so here’s one. This is an HTML code that's written in index.html:<p>
-					<section class="code">
-						<pre><code>&lt;h1&gt;This is a tree&lt;/h1&gt;
-&lt;p&gt;Trees grow really tall&lt;/p&gt;
-&lt;img src&equals;&quot;http://s1.picswalls.com/wallpapers/2014/07/19/tree-wallpaper_111651755_73.jpg&quot;&gt;</code></pre>
-					</section>
-					<p>And when you open it in your browser, this is how it will look:</p>
-					<img class="img-fluid border" src="images/articles/web-design-intro/tree example.png"
-						alt="Screenshot of Example">
-						<p>I know, it looks stale. and basic. and boring. How do I make it look good you ask? You use CSS!</p>
-					<p><strong>CSS</strong> is short for Cascading Stylesheets. True to its name, it will provide the style to
-						your HTML code. It can select an HTML element (like
-						<code>&lt;h1&gt;&comma;&nbsp;&lt;p&gt;&nbsp;or&nbsp;&lt;img&gt;</code>) and render the look as per the code
-						that you have provided in the .css file. Again, an example of CSS code:</p>
-					<section class="code">
-						<pre><code>h1 {
- color: red;
-}
-	
-p {
- color: blue;
- text-decoration: underline;
-}
-
-img {
- height: 500px;
- width: 500px;
- border: 5px dashed purple;
-}</code></pre>
-					</section>
-					<p>The result? Your <code>&lt;h1&gt;&comma;&nbsp;&lt;p&gt;&nbsp;and&nbsp;&lt;img&gt;</code> Will be
-						"beautified" like this:</p>
-					<img class="img-fluid border" src="images/articles/web-design-intro/tree example styled.png"
-						alt="Screenshot of Example">
-				</section>
-				<p>And finally, Javascript (long for JS). It will determine how the website will behave. Suppose you want an
-					alert to be displayed when you click on the heading “This is a tree”? JS will do it for you:</p>
-				<section class="code">
-					<pre><code>document.getElementById("heading").("click", function{
- alert("You cliked on the heading!");
-});</code></pre>
-				</section>
-				<img class="img-fluid border" src="images/articles/web-design-intro/tree example js.png"
-					alt="Screenshot of Example">
-				<p>Then you open the .html file, link the .css and .js files to it. Once you open the former, voila! You can see
-					the website. Then you just need to buy a domain (yourwebsite.com) from a marketplace vendor called a DNS
-					provider (GoDaddy.com or BigRock.in), buy some space online to “host” or keep your files and link your files
-					to the domain you bought. And if a person from a country that’s miles away from yours types yourwebsite.com in
-					their browser, they can view it. So, in just 5 minutes, you came to know how websites are made. Now how do you
-					become an expert in a month? That’s question 2.</p>
-				<h2 class="display-2">Q2: How to learn in two months?</h2>
-				<p>Two words. Courses and Practice. By courses I mean either video tutorials on YouTube or paid ones on
-					Udemy.com (I like the one by instructor Colt Steele). There are multiple resources online as well. MDN Docs
-					and W3Schools are good starting points.</p>
-				<p>
-					And practice. An hour a day. Or two at the most. You can start by recreating the examples I just gave you and
-					visiting the links above. Happy evolving!
-				</p>
-			</article>
-			<hr class="article-hr">
+		<div class="d-flex align-items-center intro-para">
+			<div>
+				<p>Hi. My name is Aashwath and I'm a web developer and designer. Welcome to my blog!</p>
+				<p>It's full of my thoughts and ideas (kept in the '<a href="stuff.html">stuff</a>' section), designs and photos(in '<a href="gallery.html">gallery</a>') and, my stories and poems (found in '<a href="writ.html">stuff</a>').</p>
+				<p>Have fun exploring my mind!</p>
+			</div>
 		</div>
 	</div>
-	<footer class="site-footer d-none d-md-block px-2 py-1 mt-3">
+	<footer class="site-footer d-none d-md-block px-2 py-1">
 		<p class="text-muted mb-0">you have reached rock bottom</p>
 	</footer>
 
