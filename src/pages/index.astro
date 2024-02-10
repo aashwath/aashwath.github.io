@@ -7,45 +7,80 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header title={SITE_TITLE} />
-		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
-			<p>
-				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This
-				template serves as a lightweight, minimally-styled starting point for anyone looking to build
-				a personal website, blog, or portfolio with Astro.
-			</p>
-			<p>
-				This template comes with a few integrations already configured in your
-				<code>astro.config.mjs</code> file. You can customize your setup with
-				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind,
-				React, or Vue to your project.
-			</p>
-			<p>Here are a few ideas on how to get started with the template:</p>
-			<ul>
-				<li>Edit this page in <code>src/pages/index.astro</code></li>
-				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
-				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-				<li>Check out the included blog posts in <code>src/pages/blog/</code></li>
-				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
-			</ul>
-			<p>
-				Have fun! If you get stuck, remember to <a href="https://docs.astro.build/"
-					>read the docs
-				</a> or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
-			</p>
-			<p>
-				Looking for a blog template with a bit more personality? Check out <a
-					href="https://github.com/Charca/astro-blog-template"
-					>astro-blog-template
-				</a> by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
-			</p>
-		</main>
-		<Footer />
-	</body>
-	</body>
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <style>
+      img {
+        height: 200px;
+        width: 200px;
+      }
+      .home-intro-text-container {
+        text-align: center;
+      }
+      @media (min-width: 720px) {
+        .home-intro-text-container {
+          display: flex;
+          align-items: center;
+          justify-content: between;
+          text-align: left;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <Header title={SITE_TITLE} />
+    <main>
+      <div class="home-intro-text-container">
+        <div class="home-intro-text-container-image">
+          <img
+            src="aashwath-memoji.png"
+            alt="A memoji of Aashwath's smiling face"
+          />
+        </div>
+        <h1>Hello! <br /> I am Aashwath!</h1>
+      </div>
+      <p>
+        I am a web developer and designer who loves to read and write about a
+        wide range of topics.
+      </p>
+      <p>Here are a few things about me:</p>
+      <ul>
+        <li>I simply love HTML, CSS and JavaScript. And filter coffee ☕️</li>
+        <li>
+          I've worked on frontend frameworks like <a
+            href="https://angular.dev"
+            target="_blank">Angular</a
+          > and <a href="https://react.dev" target="_blank">React</a>. For
+          backend development, I use NodeJS.
+        </li>
+        <li>
+          I love reading sci-fi and fantasy. I have written a <a
+            href="https://storymirror.com/profile/dcykfgoo/aashwath-acharya"
+            target="_blank">few short stories</a
+          >.
+          <li>Heavy metal calms me down 😌</li>
+        </li>
+        <li>
+          I'm passionate about design. If something's not right, I tend to fix
+          it. 👨‍🔧
+        </li>
+        <li>
+          I live in Mumbai with three cats 🐱 and I'm also a <a
+            href="https://toastmasters.org"
+            target="_blank">Toastmaster.</a
+          >
+        </li>
+      </ul>
+      <p>
+        Do headover to the <a href="/blog">blog</a> section and see if you find anything
+        interesting in what I've written.
+      </p>
+      <p>
+        If you'd like to contact me, please send an email to <a
+          href="mailto:aashwath@duck.com">aashwath@duck.com</a
+        >.
+      </p>
+    </main>
+    <Footer />
+  </body>
 </html>
