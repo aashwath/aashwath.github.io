@@ -2,7 +2,7 @@
 title: 'It is very easy to develop a website'
 description: 'This blog post explains how to get started with web development'
 pubDate: 'Aug 4 2019'
-heroImage: '/post-images/post-1/blog-post-1-hero-image.png'
+heroImage: '/post-images/post-1/blog-post-1-hero-image.webp'
 ---
 
 Trust me, I moved on from filling excel sheets for a living to developing websites for MNCs. It’s a desirable skill and a handy one at that to make a living. But it’s also (maybe) cathartic? I love designing. Be that posters, typography, characters, UI designs or websites. If you’re passionate about design, or just want to create a website, then let me tell you that two months from reading this, you can become a web developer. No matter your occupation, academic specialization or age (unless you’re old enough to read this and use a computer).
@@ -38,7 +38,7 @@ Okay.
 ```
 
 And when you open it in your browser, this is how it will look:
-![screenshot taken from a browser window of a tree](/post-images/post-1/tree_example.png)
+![screenshot taken from a browser window of a tree](/post-images/post-1/tree_example.webp)
 I know, it looks stale. and basic. and boring. How do I make it look good you ask? You use CSS!
 
 **CSS** is short for Cascading Stylesheets. True to its name, it will provide the style to your HTML code. It can select an HTML element (like `<h1>`, `<p>` or `<img>`) and render the look as per the code that you have provided in the .css file. Again, an example of CSS code:
@@ -71,7 +71,7 @@ document.getElementById("heading").("click", function{
 });
 ```
 
-![same image of the tree with a border around it and an alert dialog shown](/post-images/post-1/tree_example_js.png)
+![same image of the tree with a border around it and an alert dialog shown](/post-images/post-1/tree_example_js.webp)
 
 Then you open the .html file, link the .css and .js files to it. Once you open the former, voila! You can see the website. Then you just need to buy a domain (yourwebsite.com) from a marketplace vendor called a DNS provider (GoDaddy.com or BigRock.in), buy some space online to “host” or keep your files and link your files to the domain you bought. And if a person from a country that’s miles away from yours types yourwebsite.com in their browser, they can view it. So, in just 5 minutes, you came to know how websites are made. Now how do you become an expert in a couple of months? That’s question 2.
 
